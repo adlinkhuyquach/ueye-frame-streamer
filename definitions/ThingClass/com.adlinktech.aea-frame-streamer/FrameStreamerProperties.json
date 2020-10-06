@@ -1,0 +1,6 @@
+{
+    "id": "Neon-i-streamer-1001",
+    "classId": "FrameStreamer:com.adlinktech.aea-frame-streamer:v1.0",
+    "contextId": "WorkerSafteyProject",
+    "description": "Smash up frame streamer for worksaftey demo."
+}

@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 2.8.2)
+
+project(third-party-libs NONE)
+
+include(ExternalProject)
+ExternalProject_Add(spdlog
+  GIT_REPOSITORY    https://github.com/gabime/spdlog.git
+  GIT_TAG           v1.3.1
+  SOURCE_DIR        ${CMAKE_BINARY_DIR}/spdlog
+  CMAKE_ARGS        -DSPDLOG_BUILD_EXAMPLES=OFF
+                    -DSPDLOG_BUILD_BENCH=OFF
+                    -DSPDLOG_BUILD_TESTS=OFF
+  # CONFIGURE_COMMAND ""
+  BUILD_COMMAND     ""
+  INSTALL_COMMAND   ""
+  TEST_COMMAND      ""
+)

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.adlinktech.com/vortex-edge/0.9/UEyeFrameStreamer" elementFormDefault="qualified">
+   <xs:element name="UEyeFrameStreamer">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="LogLevel" minOccurs="0">
+               <xs:annotation>
+                  <xs:documentation>
+                  Set Logging Level. The default is WARN
+                  </xs:documentation>
+               </xs:annotation>
+               <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                     <xs:enumeration value="OFF"/>
+                     <xs:enumeration value="CRITICAL"/>
+                     <xs:enumeration value="ERROR"/>
+                     <xs:enumeration value="WARN"/>
+                     <xs:enumeration value="INFO"/>
+                     <xs:enumeration value="DEBUG"/>
+                     <xs:enumeration value="TRACE"/>
+                  </xs:restriction>
+               </xs:simpleType>
+            </xs:element>
+            <xs:element name="CompressionKind" minOccurs="0">
+               <xs:annotation>
+                  <xs:documentation>Specifies the compression kind of the stream. Defaults to NONE if not specified.</xs:documentation>
+               </xs:annotation>
+               <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                     <xs:enumeration value="NONE"/>
+                     <xs:enumeration value="JPG"/>
+                  </xs:restriction>
+               </xs:simpleType>
+            </xs:element>
+            <xs:element name="StreamId" type="xs:string">
+               <xs:annotation>
+                  <xs:documentation>The identifier of the frame stream published by this application.</xs:documentation>
+               </xs:annotation>
+            </xs:element>
+            <xs:element name="ThingId" minOccurs="0">
+               <xs:annotation>
+                  <xs:documentation>The identifier for the Thing on the Data River that represents this frame streamer app. Each frame streamer app must use a unique ID. Defaults to a random UUID if not specified.</xs:documentation>
+               </xs:annotation>
+               <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                     <xs:pattern value="[0-9a-zA-Z]([_-]?[0-9a-zA-Z])*"/>
+                  </xs:restriction>
+               </xs:simpleType>
+            </xs:element>
+            <xs:element name="ContextId" minOccurs="0">
+               <xs:annotation>
+                  <xs:documentation>A context identifier for the Thing on the Data River that represents this frame streamer app. Defaults to the ThingId if not specified.</xs:documentation>
+               </xs:annotation>
+               <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                     <xs:pattern value="[^£]*"/>
+                  </xs:restriction>
+               </xs:simpleType>
+            </xs:element>
+
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

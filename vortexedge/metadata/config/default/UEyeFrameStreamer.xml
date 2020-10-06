@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UEyeFrameStreamer xmlns="http://www.adlinktech.com/vortex-edge/0.9/UEyeFrameStreamer">
+   <LogLevel>TRACE</LogLevel>
+   <StreamId>demoStream</StreamId>
+</UEyeFrameStreamer>

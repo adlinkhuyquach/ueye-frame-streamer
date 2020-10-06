@@ -1,0 +1,17 @@
+{
+  "name" : "FrameStreamer",
+  "context" : "com.adlinktech.aea-frame-streamer",
+  "version" : "v1.0",
+  "description" : "Class definition for a frame streaming application",
+  "outputs" :
+  [
+    {
+      "name" : "VideoFrameData",
+      "tagGroupId" : "VideoFrame:com.vision.data:v1.0"
+    },
+    {
+      "name" : "DeviceInfo",
+      "tagGroupId" : "DeviceInfo:com.vision.data:v1.0"
+    }
+  ]
+}
