@@ -1,0 +1,3 @@
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/rebuild_cache.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/xerces-c.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/edit_cache.dir

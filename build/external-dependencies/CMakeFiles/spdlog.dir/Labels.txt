@@ -1,0 +1,14 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/spdlog
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/spdlog.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/spdlog-complete.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-install.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-mkdir.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-download.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-update.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-patch.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-configure.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-build.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-test.rule

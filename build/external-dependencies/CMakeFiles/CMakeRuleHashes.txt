@@ -1,0 +1,19 @@
+# Hashes of file build rules.
+7ad082c34b8b733688fbb6829e21673d CMakeFiles/spdlog-complete
+7134ac4dbdb5d7e5a66c93dd96f53fce CMakeFiles/xerces-c
+fb3d725b645a710e44abd6071ca075f3 CMakeFiles/xerces-c-complete
+079b2dd083b08dbc3977a1b0aeb3c737 spdlog-prefix/src/spdlog-stamp/spdlog-build
+f9f20020335ee755d15acbc59eabccac spdlog-prefix/src/spdlog-stamp/spdlog-configure
+2274e9d387c776c5ad10041ed227cc45 spdlog-prefix/src/spdlog-stamp/spdlog-download
+ac6a4e2ac5defff3b3ba872d17fab707 spdlog-prefix/src/spdlog-stamp/spdlog-install
+8e4ecc7e51c3f079630238ad163730b8 spdlog-prefix/src/spdlog-stamp/spdlog-mkdir
+0f814d519d4fbd0ec46575a700db1e90 spdlog-prefix/src/spdlog-stamp/spdlog-patch
+67ab756e2ca1486f3734eff7529817da spdlog-prefix/src/spdlog-stamp/spdlog-test
+5f23f6b3c68818c85a90b1f6c780349f xerces-c-prefix/src/xerces-c-stamp/xerces-c-build
+48f9b1744d5cb856e1c3aa2eed5ec75d xerces-c-prefix/src/xerces-c-stamp/xerces-c-configure
+379af445fbf8b01392e17068cba6555d xerces-c-prefix/src/xerces-c-stamp/xerces-c-download
+e9dc6c34e66d5de7ea42be7d990aee59 xerces-c-prefix/src/xerces-c-stamp/xerces-c-install
+4faf576c41e92ca24dab8609fa58eb9e xerces-c-prefix/src/xerces-c-stamp/xerces-c-mkdir
+f38667413983c3dfc13f617e1b8ba296 xerces-c-prefix/src/xerces-c-stamp/xerces-c-patch
+07a60bd37668b4c7d8c3f6b7546f9f6c xerces-c-prefix/src/xerces-c-stamp/xerces-c-test
+7caa9df62b9d54cf9e46f0bec13a5038 xerces-c-prefix/src/xerces-c-stamp/xerces-c-update

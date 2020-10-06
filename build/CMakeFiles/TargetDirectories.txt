@@ -1,0 +1,3 @@
+/workspaces/aea-ueye-frame-streamer/build/CMakeFiles/rebuild_cache.dir
+/workspaces/aea-ueye-frame-streamer/build/CMakeFiles/aea-ueye-frame-streamer.dir
+/workspaces/aea-ueye-frame-streamer/build/CMakeFiles/edit_cache.dir

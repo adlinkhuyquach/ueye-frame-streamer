@@ -1,0 +1,7 @@
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-build/CMakeFiles/install/strip.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-build/CMakeFiles/install/local.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-build/CMakeFiles/spdlog_headers_for_ide.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-build/CMakeFiles/rebuild_cache.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-build/CMakeFiles/edit_cache.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-build/CMakeFiles/list_install_components.dir
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-build/CMakeFiles/install.dir

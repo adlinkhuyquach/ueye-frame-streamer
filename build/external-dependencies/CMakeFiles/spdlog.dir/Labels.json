@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/spdlog"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/spdlog.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/spdlog-complete.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-install.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-download.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-update.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-patch.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-configure.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-build.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/spdlog-prefix/src/spdlog-stamp/spdlog-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog"
+		],
+		"name" : "spdlog"
+	}
+}

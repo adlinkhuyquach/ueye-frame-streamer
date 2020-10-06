@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/xerces-c"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/xerces-c.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/xerces-c-complete.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-install.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-download.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-update.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-patch.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-configure.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-build.rule"
+		},
+		{
+			"file" : "/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xerces-c"
+		],
+		"name" : "xerces-c"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ xerces-c
+# Source files and their labels
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/xerces-c
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/xerces-c.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/CMakeFiles/xerces-c-complete.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-install.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-mkdir.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-download.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-update.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-patch.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-configure.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-build.rule
+/workspaces/aea-ueye-frame-streamer/build/external-dependencies/xerces-c-prefix/src/xerces-c-stamp/xerces-c-test.rule

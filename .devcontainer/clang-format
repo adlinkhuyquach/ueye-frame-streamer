@@ -1,0 +1,14 @@
+BasedOnStyle: Google
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+SpaceBeforeParens: Always
+IndentWidth: 3
+TabWidth: 3
+UseTab: Never
+AccessModifierOffset: -3
+ColumnLimit: 0
+BreakConstructorInitializers: AfterColon
+SpacesBeforeTrailingComments: 2
+Standard: Cpp11

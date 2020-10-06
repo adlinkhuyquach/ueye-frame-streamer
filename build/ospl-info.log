@@ -1,0 +1,275 @@
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:24+0000
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : datariver_ospl_config_v1.2 (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 0 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1456812574 from [1,2147483647]
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : spliced 7f40740ca700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/The OpenSplice domain service/u_domain.c/774/0/1598262984.016858658/0
+========================================================================================
+Report      : WARNING
+Date        : 2020-08-24T09:56:24+0000
+Description : using network interface enp0s3 (192.168.0.102) selected arbitrarily from: enp0s3, br-881ffe138e6c, docker0, br-a1db4b9bd4e8
+
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : ddsi2e 7f4068c51700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/ddsi2e/q_nwif.c/1065/0/1598262984.066084585/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:24+0000
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2e' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : ddsi2e 7f4068c51700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/267/0/1598262984.070739761/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:24+0000
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : spliced 7f40740ca700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/267/0/1598262984.140427445/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:24+0000
+Description : SOAP service is reachable via port 42049
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : cmsoap 7f4068251700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/CM SOAP Service/cms_service.c/418/0/1598262984.153414631/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:24+0000
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : cmsoap 7f4068251700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/267/0/1598262984.153861745/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:24+0000
+Description : The durability service can be identified by ID: 1456812574
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : durability 7f4068150700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/DurabilityService/d_durability.c/564/0/1598262984.381647651/0
+========================================================================================
+Report      : INFO
+Context     : static com::adlinktech::datariver::DataRiver com::adlinktech::datariver::DataRiver::getInstance(const string&)
+Date        : 2020-08-24T09:56:25+0000
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : main thread 7f40741cf800
+Internals   : DataRiver.cpp/30/P822/6.10.3p2/3ab17e8aea/7b606f3bd9/-1
+----------------------------------------------------------------------------------------
+Report      : I_DATARIVER_CONNECTED: DataRiver connection created. Config: "file:///opt/ADLINK/EdgeSDK/1.5.0/etc/config/default_datariver_config_v1.2.xml"
+Internals   : com::adlinktech::datariver::DataRiverImpl::DataRiverImpl(const string&)/DataRiverImpl.cpp/115/0/1598262985.867754751
+----------------------------------------------------------------------------------------
+Report      : I_LICENSE_OK: Successfully acquired license
+Internals   : com::adlinktech::datariver::DataRiverImpl::DataRiverImpl(const string&)/DataRiverImpl.cpp/76/0/1598262985.867758550
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:26+0000
+Description : ================================================
+              == The service 'ddsi2e' has now terminated. 
+              ================================================
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : ddsi2e 7f4068c51700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/274/0/1598262986.892439302/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:26+0000
+Description : ================================================
+              == The service 'durability' has died. 
+              ================================================
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : durability 7f4068150700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/281/0/1598262986.987303218/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:26+0000
+Description : Service 'durability' DIED -> skip
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : ServiceManager 7f4074016700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/OpenSplice domain service/serviceMonitor.c/252/0/1598262986.987361085/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:27+0000
+Description : not accepting requests.
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : cmsoap 7f4068251700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/CM SOAP Service/cmsoap.c/133/0/1598262987.155631026/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:27+0000
+Description : ================================================
+              == The service 'cmsoap' has now terminated. 
+              ================================================
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : cmsoap 7f4068251700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/274/0/1598262987.155729132/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:27+0000
+Description : ================================================
+              == The service 'splicedaemon' has now terminated. 
+              ================================================
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : spliced 7f40740ca700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/274/0/1598262987.293204164/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:28+0000
+Description : Removed 10129 objects
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : main thread 7f40741cf800
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/Database close/c_base.c/3133/0/1598262988.194177201/0
+========================================================================================
+Report      : INFO
+Context     : com::adlinktech::datariver::DataRiverImpl::~DataRiverImpl()
+Date        : 2020-08-24T09:56:28+0000
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : main thread 7f40741cf800
+Internals   : DataRiverImpl.cpp/119/P822/6.10.3p2/3ab17e8aea/7b606f3bd9/-1
+----------------------------------------------------------------------------------------
+Report      : I_DATARIVER_CLOSED: DataRiver connection closed. Config: "file:///opt/ADLINK/EdgeSDK/1.5.0/etc/config/default_datariver_config_v1.2.xml"
+Internals   : void com::adlinktech::datariver::DataRiverImpl::close()/DataRiverImpl.cpp/258/0/1598262988.196100541
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:41+0000
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : datariver_ospl_config_v1.2 (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 0 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 821667425 from [1,2147483647]
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : spliced 7f79c3b2c700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/The OpenSplice domain service/u_domain.c/774/0/1598263001.892955511/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:41+0000
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : spliced 7f79c3b2c700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/267/0/1598263001.898296898/0
+========================================================================================
+Report      : WARNING
+Date        : 2020-08-24T09:56:41+0000
+Description : using network interface enp0s3 (192.168.0.102) selected arbitrarily from: enp0s3, br-881ffe138e6c, docker0, br-a1db4b9bd4e8
+
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : ddsi2e 7f79b86b3700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/ddsi2e/q_nwif.c/1065/0/1598263001.901093555/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:41+0000
+Description : SOAP service is reachable via port 35211
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : cmsoap 7f79b810a700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/CM SOAP Service/cms_service.c/418/0/1598263001.905246403/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:41+0000
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : cmsoap 7f79b810a700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/267/0/1598263001.914739646/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:41+0000
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2e' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : ddsi2e 7f79b86b3700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/v_serviceChangeState/v_service.c/267/0/1598263001.917082756/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:42+0000
+Description : The durability service can be identified by ID: 821667425
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : durability 7f799364d700
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/DurabilityService/d_durability.c/564/0/1598263002.224668362/0
+========================================================================================
+Report      : INFO
+Context     : static com::adlinktech::datariver::DataRiver com::adlinktech::datariver::DataRiver::getInstance(const string&)
+Date        : 2020-08-24T09:56:43+0000
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : main thread 7f79c3c31800
+Internals   : DataRiver.cpp/30/P822/6.10.3p2/3ab17e8aea/7b606f3bd9/-1
+----------------------------------------------------------------------------------------
+Report      : I_DATARIVER_CONNECTED: DataRiver connection created. Config: "file:///opt/ADLINK/EdgeSDK/1.5.0/etc/config/default_datariver_config_v1.2.xml"
+Internals   : com::adlinktech::datariver::DataRiverImpl::DataRiverImpl(const string&)/DataRiverImpl.cpp/115/0/1598263003.728639068
+----------------------------------------------------------------------------------------
+Report      : I_LICENSE_OK: Successfully acquired license
+Internals   : com::adlinktech::datariver::DataRiverImpl::DataRiverImpl(const string&)/DataRiverImpl.cpp/76/0/1598263003.728642945
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:43+0000
+Description : Removed 1174 objects
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : main thread 7f79c3c31800
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/Database close/c_base.c/3133/0/1598263003.763371555/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:43+0000
+Description : Removed 1174 objects
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : main thread 7f79c3c31800
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/Database close/c_base.c/3133/0/1598263003.764926513/0
+========================================================================================
+Report      : INFO
+Date        : 2020-08-24T09:56:43+0000
+Description : Removed 1174 objects
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16815>
+Thread      : main thread 7f79c3c31800
+Internals   : P822/6.10.3p2/3ab17e8aea/7b606f3bd9/Database close/c_base.c/3133/0/1598263003.767033746/0

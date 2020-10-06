@@ -1,0 +1,10 @@
+========================================================================================
+Context     : virtual void com::adlinktech::datariver::JSonTagGroupRegistry::registerTagGroupsFromURI(const string&)
+Date        : 2020-08-24T09:56:25+0000
+Node        : pt-VirtualBox
+Process     : aea-ueye-frame-streamer <16716>
+Thread      : main thread 7f40741cf800
+Internals   : JSonTagGroupRegistry.cpp/43/P822/6.10.3p2/3ab17e8aea/7b606f3bd9/-1
+----------------------------------------------------------------------------------------
+Report      : E_FILE_OPEN_FAILED: File "/definitions/TagGroup/com.vision.data/VideoFrameTagGroup.json" could not be opened
+Internals   : virtual void com::adlinktech::datariver::JSonTagGroupRegistry::registerTagGroupsFromURI(const string&)/JSonTagGroupRegistry.cpp/50/0/1598262985.887947497
